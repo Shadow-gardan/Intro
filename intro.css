@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 6rem;
+    text-align: center;
+    justify-content: center;
+    background-image: url(intro.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.heading{
+    margin-top: 11rem;
+}
+
+.heading h1{
+    background: url(text.jpg);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    font-size: 4.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    font-style: inherit;
+}
+
+.same_line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem;
+}
+
+.same_line .intro_image img{
+    width: 23rem;
+    height: 20rem;
+}
+
+.same_line .intro p{
+    font-size: 1.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 500;
+}
+.same_line .intro a{
+    color: rgb(230, 213, 30);
+    text-decoration: none;
+}
+
+.hobies p{
+    background: url(text2.jpg);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+   font-size: 4rem;
+   font-weight: 900;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: inherit;
+   margin-bottom: 1.5rem;
+}
+
+.hobies .hobi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50rem;
+}
+
+.hobi .hobi_img img{
+    margin: 3rem;
+    width: 14rem;
+    height: 15rem;
+}
+
+.hobi .hobi_img h1{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+.extra{
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
+}
+
+.extra p{
+    font-size: 1.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 500;
+}
